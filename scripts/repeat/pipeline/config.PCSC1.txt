@@ -1,0 +1,8 @@
+backgroundfile	/mnt/work1/users/lupiengroup/People/qamraa99/HG38.Pancancer.CSC/data/ConsensusSet/Repeatanalysis/Background.merged.bed
+queryfile	/mnt/work1/users/lupiengroup/People/qamraa99/HG38.Pancancer.CSC/data/ConsensusSet/PCSC1/PCSC1.Consensus.Catalogue.narrowPeak.bed
+analysisname	PCSC1.Consensus.Catalogue
+nperm	1000
+scriptdir	/mnt/work1/users/lupiengroup/People/qamraa99/HG38.Pancancer.CSC/scripts/repeat/pipeline/
+workingdir	/mnt/work1/users/lupiengroup/People/qamraa99/HG38.Pancancer.CSC/results/PCSC1/Repeatenrich/permutation/
+repeatfilesdir	/mnt/work1/users/lupiengroup/People/qamraa99/common.data/repeats/hg38/repname/
+genomesizefile	/mnt/work1/users/lupiengroup/People/qamraa99/common.data/hg38_ChromInfo.txt

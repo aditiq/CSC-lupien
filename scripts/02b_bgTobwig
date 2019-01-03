@@ -1,0 +1,9 @@
+#!/bin/bash
+## Convert bigwigs to bedgraphs
+
+for f in data/peaks/*/*_FE.bdg ;
+do
+    name=$(echo $f | awk -F"/" '{ print $NF}' |  sed -e 's/_FE.bdg//g' )
+    qsub -cwd -N Bigwig."$name" -e stdout/bigwig -o stdout/bigwig /mnt/work1/users/lupiengroup/People/qamraa99/common.scripts/bgTobgwig.hg38.sh $f "$f".bigwig ;
+done
+

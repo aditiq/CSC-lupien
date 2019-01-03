@@ -1,0 +1,1 @@
+module load bedtools/2.23.0 ; intersectBed -a data/ConsensusSet/Repeatanalysis/Background.merged.bed -b data/ConsensusSet/PCSC1/LSCp.Consensus.Catalogue.narrowPeak -v | sortBed -i stdin > data/ConsensusSet/Repeatanalysis/Bg.subtracted.LSCp.Consensus.Catalogue.narrowPeak.bed

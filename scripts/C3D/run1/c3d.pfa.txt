@@ -1,0 +1,16 @@
+module load bedtools/2.23.0
+module load R/3.2.2
+
+reference=/mnt/work1/users/lupiengroup/People/qamraa99/HG38.Pancancer.CSC/data/ConsensusSet/PCSC1/PFA.Consensus.Catalogue.narrowPeak.sorted
+db=/mnt/work1/users/lupiengroup/People/qamraa99/common.data/ATAC-Catalogue/ATAC-ENCODE/hg38/atac.encode.hg38.bdg.files.txt
+anchor=/mnt/work1/users/lupiengroup/People/qamraa99/common.data/c3d.anchors.gencodev24.500bparoundTSS.bed
+outDirectory=/mnt/work1/users/lupiengroup/People/qamraa99/HG38.Pancancer.CSC/results/PCSC1/C3D/PFA/
+window=500000
+correlationThreshold=0.7
+correlationMethod=pearson
+figures=n
+figureWidth=1000000
+zoom=100000
+colours=red,blue,green,purple
+tracks=y
+assembly=hg38
